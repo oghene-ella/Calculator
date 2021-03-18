@@ -1,0 +1,356 @@
+ html,body{
+    top: 0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+h3{
+    left:0;
+    margin:0;
+    font-size: 30px;
+    text-align: center;
+    padding-top:15px;
+    color:aqua;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image:url('../images/image.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+}
+.container1{
+    position: relative;
+    width:50%;
+    height:50%;
+    background-color: rgb(65, 68, 68);
+    top:25%;
+    left:25%;
+    border-radius: 20px;
+}
+.container1 form #inputVal{
+   position: absolute;
+   width:65%;
+   height:15%;
+   border-radius: 10px;
+   border:none;
+   background-color:aqua;
+   text-align: center;
+   left:18%;
+   top:25%;
+}
+.container1 .operations{
+    position:absolute;
+    width:30%;
+    height:40%;
+    bottom:0; 
+}
+.container1 .operations button{
+    width:35%;
+    height:40%;
+    margin-top:6px;
+    margin-left:18px;
+    padding:10px;
+    background-color: aqua;
+    border:none;
+    border-radius: 10px;
+}
+.container1 .operations button:hover{
+    cursor: pointer;
+}
+.container1 .operations .equalsto{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:27%;
+    left:101%;
+}
+.container1 .operations .equalsto:hover{
+    background-color:black;
+    color:aqua;
+}
+.container1 form #answer{
+    position: absolute;
+    width: 30%;
+    height:10%;
+    bottom: 17%;
+    right:10%;
+    background-color: aqua;
+    border:none;
+    text-align: center;
+    color:black;
+}
+.container1 p{
+    color:aqua;
+    bottom:0;
+    position:absolute;
+    right:0;
+    margin-right:5%;
+    font-size:13px;
+}
+/**media query**/
+@media(min-width:747px) and (max-width:890px){
+    h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:60%;
+    height:50%;
+}
+}
+/**media query**/
+@media(min-width:607px) and (max-width:746px){
+h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:65%;
+    height:50%;
+    top:25%;
+    left:20%;
+}
+.container1 .operations{
+    position:absolute;
+    width:35%;
+    height:40%;
+}
+}
+
+/*media query*/
+@media(min-width:507px) and (max-width:606px){
+h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:70%;
+    height:50%;
+    top:25%;
+    left:15%;
+}
+.container1 .operations{
+    position:absolute;
+    width:40%;
+    height:40%;
+}
+.container1 .operations button{
+    width:35%;
+    height:40%;
+}
+}
+@media(min-width:407px) and (max-width:506px){
+    h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:75%;
+    height:50%;
+    top:25%;
+    left:10%;
+}
+.container1 .operations{
+    position:absolute;
+    width:48%;
+    height:40%;
+    bottom:0; 
+}
+.container1 .operations button{
+    width:33%;
+    height:40%;
+    margin-top:6px;
+    margin-left:12px;
+}
+.container1 .operations .equalsto{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:27%;
+    left:85%;
+}
+.container1 p{
+    font-size:11px;
+}
+}
+
+/*media query*/
+@media(min-width:307px) and (max-width:406px){
+    h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:85%;
+    height:50%;
+    left:7%;
+}
+.container1 form #inputVal{
+   position: absolute;
+   width:69%;
+   height:15%;
+   left:16%;
+}
+.container1 .operations{
+    position:absolute;
+    width:50%;
+    height:40%;
+    bottom:0; 
+}
+.container1 .operations button{
+    width:35%;
+    height:40%;
+    margin-left:10px;
+    padding:5px;
+}
+.container1 .operations .equalsto{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:27%;
+    left:89%;
+}
+.container1 form #answer{
+    position: absolute;
+    width: 33%;
+    height:10%;
+    bottom: 17%;
+    right:4%;
+}
+.container1 p{
+    font-size:10px;
+}
+}
+/*media query*/
+@media(min-width:207px) and (max-width:306px){
+    h3{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:90%;
+    height:50%;
+    left:5%;
+}
+.container1 form #inputVal{
+   position: absolute;
+   width:79%;
+   height:15%;
+   left:10%;
+}
+.container1 .operations{
+    position:absolute;
+    width:55%;
+    height:40%;
+    bottom:0; 
+}
+.container1 .operations button{
+    width:32%;
+    height:40%;
+    margin-left:7px;
+    padding:5px;
+}
+.container1 .operations .equalsto{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:27%;
+    left:80%;
+}
+.container1 form #answer{
+    position: absolute;
+    width: 33%;
+    height:10%;
+    bottom: 17%;
+    right:2%;
+}
+.container1 p{
+    font-size:8px;
+}
+}
+@media(min-width:107px) and (max-width:206px){
+    h3{
+    font-size: 20px;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.container1{
+    position: relative;
+    width:95%;
+    height:50%;
+    left:2%;
+}
+.container1 form #inputVal{
+   position: absolute;
+   width:85%;
+   height:15%;
+   left:6%;
+}
+.container1 .operations{
+    position:absolute;
+    width:55%;
+    height:40%;
+    top:65%; 
+}
+.container1 .operations button{
+    width:30%;
+    height:30%;
+    margin-left:7px;
+    padding:5px;
+}
+.container1 .operations .equalsto{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:27%;
+    left:80%;
+}
+.container1 form #answer{
+    position: absolute;
+    width: 33%;
+    height:10%;
+    bottom: 11%;
+    right:2%;
+}
+.container1 p{
+    font-size:8px;
+}
+}
